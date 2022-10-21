@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
   <title>Каталог интернет-магазина «Глейси»</title>
 </head>
 
@@ -83,6 +84,7 @@
     </header>
 
     <section class="catalog-products">
+      <h2 class="visually-hidden">Сортировка каталога</h2>
       <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
 
         <fieldset class="catalog-filter-group">
@@ -102,25 +104,25 @@
           <legend class="catalog-filter-title">Жирность:</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-              <label for="control">
+              <label class="control">
                 <input type="radio" class="control-input" name="fat-group" value="zero-percent">
                 0%
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label for="control">
+              <label class="control">
                 <input type="radio" class="control-input" name="fat-group" value="below-ten-percent" checked>
                 до 10%
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label for="control">
+              <label class="control">
                 <input type="radio" class="control-input" name="fat-group" value="below-thirty-percent">
                 до 30%
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label for="control">
+              <label class="control">
                 <input type="radio" class="control-input" name="fat-group" value="under-thirty-percent">
                 выше 30%
               </label>
@@ -132,30 +134,33 @@
           <legend class="catalog-filter-title">Наполнители:</legend>
           <ul class="catalog-filter-list">
             <li class="catalog-filter-item">
-              <label for="control">
+              <label class="control">
                 <input type="checkbox" class="control-input" name="chocolate" checked>
                 шоколадные
               </label>
             </li>
             <li class="catalog-filter-item">
-              <label for="control">
+              <label class="control">
                 <input type="checkbox" class="control-input" name="sugar" checked>
                 сахарные посыпки
               </label>
             </li>
             <li class="catalog-filter-item">
+            <label class="control">
               <input type="checkbox" class="control-input" name="fruits">
-                фрукты
+              фрукты
               </label>
             </li>
             <li class="catalog-filter-item">
+              <label class="control">
               <input type="checkbox" class="control-input" name="syrup">
-                сиропы
+              сиропы
               </label>
             </li>
             <li class="catalog-filter-item">
+              <label class="control">
               <input type="checkbox" class="control-input" name="jams">
-                джемы
+              джемы
               </label>
             </li>
           </ul>
@@ -166,11 +171,6 @@
       </form>
     </section>
 
-
-
-
-
-
     <section class="tastes">
       <h2 class="visually-hidden">Вкусы мороженого в магазине «Глейси»</h2>
       <ul class="popular-list">
@@ -179,7 +179,7 @@
           <img src="img/tastes/rapsberry.png" alt="Вкус малины" class="popular-image" width="168" height="168">
           <p class="popular-info">Сливочное мороженое с малиновым джемом</p>
           <b class="popular-price">310 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -188,7 +188,7 @@
           <img src="img/tastes/pistachio.png" alt="Фисташковый вкус" class="popular-image" width="168" height="168">
           <p class="popular-info">Фисташковый пломбир с кусочками шоколада</p>
           <b class="popular-price">340 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         <li class="popular-item">
@@ -196,7 +196,7 @@
           <img src="img/tastes/blueberry.png" alt="Вкус черники" class="popular-image" width="168" height="168">
           <p class="popular-info">Крем-брюле с черничным джемом</p>
           <b class="popular-price">330 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -205,7 +205,7 @@
           <img src="img/tastes/bubblegum.png" alt="Вкус бабл-гам" class="popular-image" width="168" height="168">
           <p class="popular-info">Ванильный пломбир со сладкой посыпкой</p>
           <b class="popular-price">320 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -214,7 +214,7 @@
           <img src="img/tastes/blackberry.png" alt="Вкус ежевики" class="popular-image" width="168" height="168">
           <p class="popular-info">Сливочное мороженое с ежевичным джемом</p>
           <b class="popular-price">330 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -223,7 +223,7 @@
           <img src="img/tastes/banana.png" alt="Вкус банана" class="popular-image" width="168" height="168">
           <p class="popular-info">Сливочный пломбир с банановым вкусом</p>
           <b class="popular-price">340 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -232,7 +232,7 @@
           <img src="img/tastes/chocolate.png" alt="Вкус шоколадки" class="popular-image" width="168" height="168">
           <p class="popular-info">Классический шоколадный пломбир</p>
           <b class="popular-price">270 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -241,7 +241,7 @@
           <img src="img/tastes/strawberry.png" alt="Вкус клубнички" class="popular-image" width="168" height="168">
           <p class="popular-info">Сливочный пломбир с клубничным вкусом</p>
           <b class="popular-price">300 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -250,7 +250,7 @@
           <img src="img/tastes/lemon.png" alt="Вкус лимона" class="popular-image" width="168" height="168">
           <p class="popular-info">Освежающий лимонный сорбет</p>
           <b class="popular-price">310 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -259,7 +259,7 @@
           <img src="img/tastes/menthol.png" alt="Вкус ментола" class="popular-image" width="168" height="168">
           <p class="popular-info">Сливочный пломбир с ментоловым сиропом</p>
           <b class="popular-price">320 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -268,7 +268,7 @@
           <img src="img/tastes/nut.png" alt="Вкус орешка" class="popular-image" width="168" height="168">
           <p class="popular-info">Фисташковый пломбир с шоколадным сиропом</p>
           <b class="popular-price">360 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
@@ -277,7 +277,7 @@
           <img src="img/tastes/bubblegum.png" alt="Вкус крем-брюле" class="popular-image" width="168" height="168">
           <p class="popular-info">Классическое крем-брюле</p>
           <b class="popular-price">280 ₽/кг</b>
-          <button type="button buy-button" class="button-buy">
+          <button type="button" class="button button-buy">
             <span class="visually-hidden">Купить</span>
           </button>
         </li>
