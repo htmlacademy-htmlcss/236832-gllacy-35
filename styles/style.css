@@ -110,7 +110,7 @@ h2 {
   display: none;
 } */
 
-.slider-block:not(.active-slide) li {
+.slider-block li:not(.active-slide) {
   display: none;
 }
 
@@ -248,9 +248,22 @@ h2 {
   border-bottom: 1px solid #2D3440;
 }
 
+form {
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
 fieldset {
+  border: none;
+}
+
+fieldset select,
+fieldset ul {
   background-color: rgba(252, 252, 252, 0.3);
   border-radius: 20px;
+  padding: 8px 16px;
+  border: none;
 }
 
 .catalog-filter ul {
