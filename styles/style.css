@@ -1,0 +1,286 @@
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/inter-400.woff2) format('woff2');
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/inter-700.woff2) format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/inter-900.woff2) format('woff2');
+  font-display: swap;
+}
+
+body {
+
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  background-color: #FEAFC3;
+  color: #2D3440;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* navigation */
+.navigation-list a,
+.navigation-user a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navigation-phone-link {
+  font-weight: bold;
+}
+
+.navigation-list li,
+.navigation-user li {
+  list-style: none;
+}
+
+/* buttons */
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  text-decoration: none;
+  padding: 12px 32px;
+  background-color: #FCFCFC;
+  outline: 4px solid rgba(252, 252, 252, 0.4);
+  border-radius: 26px;
+  border: none;
+}
+
+.special-button {
+  background: #FF2F64;
+  color: #FCFCFC;
+  outline: 4px solid rgba(255, 47, 100, 0.3);
+}
+
+.form-button {
+  font-size: 14px;
+  line-height: 20px;
+  background: rgba(252, 252, 252, 0.3);
+  border: 2px solid #FCFCFC;
+  border-radius: 20px;
+  padding: 8px 50px;
+  outline: none;
+}
+
+/* section .slider */
+
+.slider-block {
+  list-style: none;
+}
+
+/* .slider-item:nth-child(2),
+.slider-item:nth-child(3) {
+  display: none;
+} */
+
+.slider-block li:not(.active-slide) {
+  display: none;
+}
+
+.slider-item-title {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.slider-item p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* section .special */
+
+.special-list {
+  list-style: none;
+}
+
+.special-item {
+  background-color: #FF7799;
+  border-radius: 16px;
+}
+
+.special-item-title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+/* section .products */
+
+.product-list {
+  list-style: none;
+}
+
+.product-item {
+  background: #FCFCFC;
+  border-radius: 8px;
+}
+
+.product-subtitle {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* section .advantages */
+
+.advantages-list {
+  list-style: none;
+}
+
+
+/* section .blog */
+
+.blog-title {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.blog-news a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* section .delivery */
+
+.delivery-block-title {
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 46px;
+}
+
+/* section .contacts */
+
+.contact-address {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.contacts a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.phone-calls-special {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* footer */
+
+.footer-links {
+  list-style: none;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.link-special::before {
+  content: url(../img/icons/heart.svg);
+  margin-right: 9px;
+}
+
+.footer-links a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.creators-info {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.creators-info a {
+  color: inherit;
+}
+
+/* Catalog */
+
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.active-link {
+  border-bottom: 1px solid #2D3440;
+}
+
+form {
+  font-size: 14px;
+  line-height: 20px;
+
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset select,
+fieldset ul {
+  background-color: rgba(252, 252, 252, 0.3);
+  border-radius: 20px;
+  padding: 8px 16px;
+  border: none;
+}
+
+.catalog-filter ul {
+  list-style: none;
+}
+
+.pagination {
+  list-style: none;
+}
+
+.pagination-link {
+  text-decoration: none;
+  color: inherit;
+  padding: 2px 8px;
+}
+
+.pagination-current {
+  background: #FCFCFC;
+  border-radius: 50px;
+}
