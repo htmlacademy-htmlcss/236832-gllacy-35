@@ -88,9 +88,16 @@ h2 {
   padding-right: 37px;
 }
 
-.navigation-link,
-.navigation-user-link {
+.navigation-link {
   padding: 8px 16px;
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+}
+
+.navigation-user-link {
+  padding: 6px 10px;
   display: block;
   text-decoration: none;
   color: inherit;
@@ -127,7 +134,7 @@ h2 {
   list-style: none;
   margin: 0;
   padding: 0;
-  max-width: 470px;
+  max-width: 480px;
   display: flex;
   flex-wrap: wrap;
   margin-left: auto;
@@ -239,7 +246,8 @@ h2 {
 }
 
 .navigation-link-login {
-  padding-left: 44px;
+  padding-left: 40px;
+  padding-right: 12px;
   font-size: 14px;
   line-height: 20px;
   background: rgba(252, 252, 252, 0.3);
