@@ -13,83 +13,97 @@
 
 <body>
   <header class="page-header">
+    <div class="header-container">
+      <nav class="navigation"></nav>
+      <div class="main-nav-wrapper">
+        <a class="page-logo-link">
+          <img src="img/main-logo.svg" alt="Логотип интернет-магазина «Глейси»" class="page-logo" width="137"
+            height="56">
+        </a>
 
-    <nav class="navigation">
-      <div class="header-container">
-        <div class="main-nav-wrapper">
-          <a class="page-logo-link">
-            <img src="img/main-logo.svg" alt="Логотип интернет-магазина «Глейси»" class="page-logo" width="137"
-              height="56">
-          </a>
+        <ul class="navigation-list">
+          <li class="navigation-item main-menu">
+            <a href="catalog.html" class="navigation-link catalog-link">Каталог
+              <svg class="catalog-icon" width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M3.80812 7.0532C3.54777 6.79285 3.12566 6.79285 2.86531 7.0532C2.60496 7.31355 2.60496 7.73566 2.86531 7.99601L7.52565 12.6564C7.52771 12.6585 7.52979 12.6606 7.53189 12.6627C7.66259 12.7934 7.83404 12.8585 8.00534 12.8579C8.1753 12.8574 8.34511 12.7924 8.47478 12.6627C8.47687 12.6606 8.47894 12.6585 8.48099 12.6564L13.1414 7.99601C13.4017 7.73566 13.4017 7.31355 13.1414 7.0532C12.881 6.79285 12.4589 6.79285 12.1986 7.0532L8.00334 11.2484L3.80812 7.0532Z" />
+              </svg>
+            </a>
+            <ul class="sub-menu">
+              <li class="sub-menu-item">
+                <a class="sub-menu-link active-catalog-link">Новинки</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="" class="sub-menu-link">Сливочное</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="" class="sub-menu-link">Щербеты</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="" class="sub-menu-link">Фруктовый лед</a>
+              </li>
+              <li class="sub-menu-item">
+                <a href="" class="sub-menu-link">Мелорин</a>
+              </li>
+            </ul>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">Доставка и оплата</a>
+          </li>
+          <li class="navigation-item">
+            <a href="#" class="navigation-link">О компании</a>
+          </li>
+        </ul>
 
-          <ul class="navigation-list">
-            <li class="navigation-item main-menu">
-              <a href="catalog.html" class="navigation-link catalog-link">Каталог</a>
-              <ul class="sub-menu">
-                <li class="sub-menu-item active-catalog-item">
-                  <a class="sub-menu-link active-catalog-link">Новинки</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="" class="sub-menu-link">Сливочное</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="" class="sub-menu-link">Щербеты</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="" class="sub-menu-link">Фруктовый лед</a>
-                </li>
-                <li class="sub-menu-item">
-                  <a href="" class="sub-menu-link">Мелорин</a>
-                </li>
-              </ul>
-            </li>
-            <li class="navigation-item">
-              <a href="#" class="navigation-link">Доставка и оплата</a>
-            </li>
-            <li class="navigation-item">
-              <a href="#" class="navigation-link">О компании</a>
-            </li>
-          </ul>
-
-          <ul class="navigation-user">
-            <li class="navigation-item">
-              <a href="tel:+78005558628" class="navigation-user-link navigation-phone-link">+7 800 555-86-28</a>
-            </li>
-            <li class="navigation-item">
-              <a href="#" class="navigation-user-link navigation-search-link">
-                <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="17"
-                  viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M2.66329 8.18799C2.66329 5.61066 4.75263 3.52132 7.32996 3.52132C9.90729 3.52132 11.9966 5.61066 11.9966 8.18799C11.9966 9.44526 11.4994 10.5864 10.6909 11.4255C10.6681 11.4431 10.6461 11.4623 10.6252 11.4833C10.6043 11.5042 10.585 11.5261 10.5675 11.549C9.72835 12.3575 8.58722 12.8547 7.32996 12.8547C4.75263 12.8547 2.66329 10.7653 2.66329 8.18799ZM11.0751 12.8759C10.0486 13.697 8.74662 14.188 7.32996 14.188C4.01625 14.188 1.32996 11.5017 1.32996 8.18799C1.32996 4.87428 4.01625 2.18799 7.32996 2.18799C10.6437 2.18799 13.33 4.87428 13.33 8.18799C13.33 9.60467 12.839 10.9067 12.0179 11.9331L14.468 14.3833C14.7284 14.6436 14.7284 15.0657 14.468 15.3261C14.2077 15.5864 13.7855 15.5864 13.5252 15.3261L11.0751 12.8759Z"
-                    fill="#2D3440" />
-                </svg>
-                <span class="visually-hidden">
-                  Поиск
-                </span>
-              </a>
-            </li>
-            <li class="navigation-item">
-              <a href="#" class="navigation-user-link navigation-link-login">
-                <svg class="navigation-icon" width="16" height="17" viewBox="0 0 16 17" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M9 2.52458C9 2.15639 9.29848 1.85791 9.66667 1.85791H12.3333C12.8638 1.85791 13.3725 2.06862 13.7475 2.4437C14.1226 2.81877 14.3333 3.32748 14.3333 3.85791V13.1912C14.3333 13.7217 14.1226 14.2304 13.7475 14.6055C13.3725 14.9805 12.8638 15.1912 12.3333 15.1912H9.66667C9.29848 15.1912 9 14.8928 9 14.5246C9 14.1564 9.29848 13.8579 9.66667 13.8579H12.3333C12.5101 13.8579 12.6797 13.7877 12.8047 13.6626C12.9298 13.5376 13 13.3681 13 13.1912V3.85791C13 3.6811 12.9298 3.51153 12.8047 3.38651C12.6797 3.26148 12.5101 3.19124 12.3333 3.19124H9.66667C9.29848 3.19124 9 2.89277 9 2.52458ZM5.86189 4.71984C6.12224 4.45949 6.54435 4.45949 6.8047 4.71984L10.1338 8.04894C10.1509 8.06576 10.1671 8.0835 10.1824 8.10207C10.2142 8.14087 10.2411 8.18243 10.2628 8.22586C10.3079 8.31572 10.3333 8.41718 10.3333 8.52458C10.3333 8.6332 10.3074 8.73576 10.2613 8.82637C10.241 8.86632 10.2164 8.90466 10.1876 8.94069C10.1708 8.96169 10.1527 8.98166 10.1335 9.00047L6.8047 12.3293C6.54435 12.5897 6.12224 12.5897 5.86189 12.3293C5.60154 12.069 5.60154 11.6469 5.86189 11.3865L8.05715 9.19124H1.66667C1.29848 9.19124 1 8.89277 1 8.52458C1 8.15639 1.29848 7.85791 1.66667 7.85791H8.05715L5.86189 5.66265C5.60154 5.4023 5.60154 4.98019 5.86189 4.71984Z" />
-                </svg>
-                Вход</a>
-            </li>
-            <li class="navigation-item">
-              <a href="#" class="navigation-user-link navigation-link-login">
-                <svg class="navigation-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M1.16667 0.10791C0.798477 0.10791 0.5 0.406387 0.5 0.774577C0.5 1.14277 0.798477 1.44124 1.16667 1.44124H2.93794L3.40537 3.77663C3.40821 3.79458 3.41176 3.81229 3.416 3.82973L4.38338 8.66306L4.3835 8.66362C4.46706 9.08363 4.69562 9.4609 5.02921 9.72944C5.36111 9.99662 5.77595 10.1392 6.20183 10.1327H11.8225C12.2484 10.1392 12.6633 9.99662 12.9952 9.72944C13.3289 9.46078 13.5575 9.08329 13.641 8.66306L13.641 8.66306L13.642 8.65807L14.5691 3.79663C14.6063 3.60146 14.5545 3.39986 14.4279 3.24678C14.3012 3.09369 14.1129 3.00507 13.9142 3.00507H4.61072L4.1381 0.643739C4.07574 0.332167 3.80215 0.10791 3.4844 0.10791H1.16667ZM5.69098 8.40235L4.87759 4.33841H13.1084L12.3328 8.40527C12.31 8.51779 12.2485 8.61881 12.1591 8.69082C12.0691 8.76326 11.9565 8.80174 11.841 8.79953L11.841 8.7994H11.8282H6.19614V8.79928L6.18337 8.79953C6.06787 8.80174 5.95528 8.76326 5.8653 8.69082C5.77531 8.61839 5.71368 8.51661 5.69117 8.40331L5.69098 8.40235ZM4.55739 12.3633C4.55739 11.6754 5.1151 11.1177 5.80307 11.1177C6.49105 11.1177 7.04876 11.6754 7.04876 12.3633C7.04876 13.0513 6.49105 13.609 5.80307 13.609C5.1151 13.609 4.55739 13.0513 4.55739 12.3633ZM10.9307 12.3633C10.9307 11.6754 11.4884 11.1177 12.1764 11.1177C12.8644 11.1177 13.4221 11.6754 13.4221 12.3633C13.4221 13.0513 12.8644 13.609 12.1764 13.609C11.4884 13.609 10.9307 13.0513 10.9307 12.3633Z" />
-                </svg>
-                2 товара</a>
-            </li>
-          </ul>
-        </div>
+        <ul class="navigation-user">
+          <li class="navigation-item">
+            <a href="tel:+78005558628" class="navigation-phone-link">+7 800 555-86-28</a>
+          </li>
+          <li class="navigation-item navigation-search-item">
+            <a href="#" class="navigation-user-link navigation-search-link">
+              <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="17"
+                viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M2.66329 8.18799C2.66329 5.61066 4.75263 3.52132 7.32996 3.52132C9.90729 3.52132 11.9966 5.61066 11.9966 8.18799C11.9966 9.44526 11.4994 10.5864 10.6909 11.4255C10.6681 11.4431 10.6461 11.4623 10.6252 11.4833C10.6043 11.5042 10.585 11.5261 10.5675 11.549C9.72835 12.3575 8.58722 12.8547 7.32996 12.8547C4.75263 12.8547 2.66329 10.7653 2.66329 8.18799ZM11.0751 12.8759C10.0486 13.697 8.74662 14.188 7.32996 14.188C4.01625 14.188 1.32996 11.5017 1.32996 8.18799C1.32996 4.87428 4.01625 2.18799 7.32996 2.18799C10.6437 2.18799 13.33 4.87428 13.33 8.18799C13.33 9.60467 12.839 10.9067 12.0179 11.9331L14.468 14.3833C14.7284 14.6436 14.7284 15.0657 14.468 15.3261C14.2077 15.5864 13.7855 15.5864 13.5252 15.3261L11.0751 12.8759Z" />
+              </svg>
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+            <div class="popover-search-wrapper">
+              <form action="https://echo.htmlacademy.ru" class="popover-search" method="post">
+                <label class="visually-hidden" for="search">Что вы хотите найти</label>
+                <input class="field" type="text" id="search" placeholder="Поиск по сайту">
+              </form>
+            </div>
+          </li>
+          <li class="navigation-item navigation-login-item">
+            <a href="#" class="navigation-user-link navigation-link-login">
+              <svg class="navigation-icon" width="16" height="17" viewBox="0 0 16 17" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M9 2.52458C9 2.15639 9.29848 1.85791 9.66667 1.85791H12.3333C12.8638 1.85791 13.3725 2.06862 13.7475 2.4437C14.1226 2.81877 14.3333 3.32748 14.3333 3.85791V13.1912C14.3333 13.7217 14.1226 14.2304 13.7475 14.6055C13.3725 14.9805 12.8638 15.1912 12.3333 15.1912H9.66667C9.29848 15.1912 9 14.8928 9 14.5246C9 14.1564 9.29848 13.8579 9.66667 13.8579H12.3333C12.5101 13.8579 12.6797 13.7877 12.8047 13.6626C12.9298 13.5376 13 13.3681 13 13.1912V3.85791C13 3.6811 12.9298 3.51153 12.8047 3.38651C12.6797 3.26148 12.5101 3.19124 12.3333 3.19124H9.66667C9.29848 3.19124 9 2.89277 9 2.52458ZM5.86189 4.71984C6.12224 4.45949 6.54435 4.45949 6.8047 4.71984L10.1338 8.04894C10.1509 8.06576 10.1671 8.0835 10.1824 8.10207C10.2142 8.14087 10.2411 8.18243 10.2628 8.22586C10.3079 8.31572 10.3333 8.41718 10.3333 8.52458C10.3333 8.6332 10.3074 8.73576 10.2613 8.82637C10.241 8.86632 10.2164 8.90466 10.1876 8.94069C10.1708 8.96169 10.1527 8.98166 10.1335 9.00047L6.8047 12.3293C6.54435 12.5897 6.12224 12.5897 5.86189 12.3293C5.60154 12.069 5.60154 11.6469 5.86189 11.3865L8.05715 9.19124H1.66667C1.29848 9.19124 1 8.89277 1 8.52458C1 8.15639 1.29848 7.85791 1.66667 7.85791H8.05715L5.86189 5.66265C5.60154 5.4023 5.60154 4.98019 5.86189 4.71984Z" />
+              </svg>
+              Вход</a>
+          </li>
+          <li class="navigation-item navigation-basket-item">
+            <a href="#" class="navigation-user-link navigation-link-login navigation-basket-link">
+              <svg class="navigation-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M1.16667 0.10791C0.798477 0.10791 0.5 0.406387 0.5 0.774577C0.5 1.14277 0.798477 1.44124 1.16667 1.44124H2.93794L3.40537 3.77663C3.40821 3.79458 3.41176 3.81229 3.416 3.82973L4.38338 8.66306L4.3835 8.66362C4.46706 9.08363 4.69562 9.4609 5.02921 9.72944C5.36111 9.99662 5.77595 10.1392 6.20183 10.1327H11.8225C12.2484 10.1392 12.6633 9.99662 12.9952 9.72944C13.3289 9.46078 13.5575 9.08329 13.641 8.66306L13.641 8.66306L13.642 8.65807L14.5691 3.79663C14.6063 3.60146 14.5545 3.39986 14.4279 3.24678C14.3012 3.09369 14.1129 3.00507 13.9142 3.00507H4.61072L4.1381 0.643739C4.07574 0.332167 3.80215 0.10791 3.4844 0.10791H1.16667ZM5.69098 8.40235L4.87759 4.33841H13.1084L12.3328 8.40527C12.31 8.51779 12.2485 8.61881 12.1591 8.69082C12.0691 8.76326 11.9565 8.80174 11.841 8.79953L11.841 8.7994H11.8282H6.19614V8.79928L6.18337 8.79953C6.06787 8.80174 5.95528 8.76326 5.8653 8.69082C5.77531 8.61839 5.71368 8.51661 5.69117 8.40331L5.69098 8.40235ZM4.55739 12.3633C4.55739 11.6754 5.1151 11.1177 5.80307 11.1177C6.49105 11.1177 7.04876 11.6754 7.04876 12.3633C7.04876 13.0513 6.49105 13.609 5.80307 13.609C5.1151 13.609 4.55739 13.0513 4.55739 12.3633ZM10.9307 12.3633C10.9307 11.6754 11.4884 11.1177 12.1764 11.1177C12.8644 11.1177 13.4221 11.6754 13.4221 12.3633C13.4221 13.0513 12.8644 13.609 12.1764 13.609C11.4884 13.609 10.9307 13.0513 10.9307 12.3633Z" />
+              </svg>
+              2 товара</a>
+            <div class="popover-basket">
+              <p class="popover-basket-text">
+                Ваша корзина пока пуста
+              </p>
+            </div>
+          </li>
+        </ul>
       </div>
-    </nav>
+      </nav>
+    </div>
 
   </header>
   <main class="main-index main-container">
@@ -102,6 +116,7 @@
 
         <ul class="slider-block">
           <li class="slider-item active-slide">
+
             <div class="slider-text-wrapper">
               <h3 class="slider-item-title">Нежный пломбир <br> с клубничным джемом</h3>
 
@@ -112,11 +127,20 @@
               <a href="#" class="button order-button">Заказать</a>
             </div>
             <div class="slider-wrapper">
-
-              <div class="slider-image-wrapper">
+              <div class="slider-images-wrapper">
+              <div class="slider-main-wrapper">
                 <img class="slider-image" src="img/slider/strawberry-jam.png" alt="Нежный пломбир с клубничным джемом"
                   width="306" height="507">
               </div>
+              <div class="slider-image-preview">
+                <img src="img/slider/banana-jam-preview.png" width="66" height="150" alt="Пломбир с банановым вкусом">
+              </div>
+
+              <div class="slider-image-preview">
+                <img src="img/slider/caramel-jam-preview.png" width="66" height="150" alt="Пломбир с банановым вкусом">
+              </div>
+            </div>
+
               <div class="slider-controls">
                 <button class="slider-button slider-prev" type="button">
                   <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="16" height="16"
@@ -197,7 +221,7 @@
       </section>
 
       <section class="special">
-        <h2 class="special-title">Заказывайте мороженое и получайте подарки!</h2>
+        <h2 class="special-title">Заказывайте мороженое <br> и получайте подарки!</h2>
         <ul class="special-list">
           <li class="special-item">
             <div class="special-item-text">
@@ -310,7 +334,7 @@
               <li class="advantages-item">
                 <div class="advantages-item-wrapper">
                   <div class="advantages-icon-wrapper">
-                    <img class="advantages-icon" src="/img/icons/adv-ice-cream.svg" alt="Иконка мороженого">
+                    <img class="advantages-icon" src="img/icons/adv-ice-cream.svg" alt="Иконка мороженого">
                   </div>
                   <p>Всё наше мороженое изготавливается на собственном производстве с использованием современного
                     оборудования
@@ -322,7 +346,7 @@
               <li class="advantages-item">
                 <div class="advantages-item-wrapper">
                   <div class="advantages-icon-wrapper">
-                    <img class="advantages-icon" src="/img/icons/adv-cow.svg" alt="Иконка коровы">
+                    <img class="advantages-icon" src="img/icons/adv-cow.svg" alt="Иконка коровы">
                   </div>
                   <p>Закупка ингредиентов производится только
                     у проверенных фермерских хозяйств, с которыми <br>
@@ -332,7 +356,7 @@
               <li class="advantages-item">
                 <div class="advantages-item-wrapper">
                   <div class="advantages-icon-wrapper">
-                    <img class="advantages-icon" src="/img/icons/adv-leaf.svg" alt="Иконка листика">
+                    <img class="advantages-icon" src="img/icons/adv-leaf.svg" alt="Иконка листика">
                   </div>
                   <p>Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты
                     <br>
@@ -342,7 +366,7 @@
               <li class="advantages-item">
                 <div class="advantages-item-wrapper">
                   <div class="advantages-icon-wrapper">
-                    <img class="advantages-icon" src="/img/icons/adv-thermometer.svg" alt="Иконка градусника">
+                    <img class="advantages-icon" src="img/icons/adv-thermometer.svg" alt="Иконка градусника">
                   </div>
                   <p>Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому
                     растаять и
@@ -358,7 +382,7 @@
         <h2 class="visually-hidden">Статьи в блоге и подписка на новости</h2>
         <article class="blog-news">
           <h3 class="blog-article-title">Новое в нашем блоге</h3>
-            <p class="blog-article-info"><a href="#">10 способов сервировки фруктовых щербетов <br>
+          <p class="blog-article-info"><a href="#">10 способов сервировки фруктовых щербетов <br>
               к столу</a></p>
           </a>
         </article>
@@ -371,7 +395,6 @@
             <form class="blog-news-form" action="https://echo.htmlacademy.ru/" method="post">
               <input class="field" placeholder="email@example.com" type="email" name="blog-email" id="blog-email"
                 required>
-
               <button type="button" class="button special-button">Отправить</button>
             </form>
           </div>
@@ -382,26 +405,55 @@
         <h2 class="visually-hidden">Доставка мороженого</h2>
         <div class="delivery-block">
           <h3 class="delivery-block-title">Доставка любимого мороженого на дом</h3>
-          <p class="delivery-block-info">Хочется полакомиться любимым десертом, но нет времени съездить в магазин?
+          <p class="delivery-block-info">Хочется полакомиться любимым десертом, <br>но нет времени съездить в магазин?
             Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
         </div>
         <div class="form-wrapper">
+          <p class="delivery-text-info">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.
+          </p>
+
           <form action="https://echo.htmlacademy.ru/" method="post" class="delivery-form">
-            <p class="delivery-text-info">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.
-            </p>
-            <p class="delivery-form-date">
-              <label for="delivery-date">Дата</label>
-              <input type="text" id="delivery-date" name="delivery-date" placeholder="01.04.2020">
-            </p>
-            <p class="delivery-form-phone">
-              <label for="delivery-phone">Телефон</label>
-              <input type="text" id="delivery-phone" name="delivery-phone" placeholder="+7 800 999-00-00">
-            </p>
-            <p class="delivery-form-address">
-              <label for="delivery-address">Адрес</label>
-              <input type="text" id="delivery-address" name="delivery-address"
-                placeholder="ул. Большая Конюшенная, 19/8">
-            </p>
+            <div class="delivery-form-wrapper">
+              <p class="delivery-form-date">
+                <label for="delivery-date">
+                  <span class="delivery-text">
+                    Дата
+                    <svg class="tooltip-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.00026 2.12508C4.30774 2.12508 2.12502 4.3078 2.12502 7.00032C2.12502 9.69284 4.30774 11.8756 7.00026 11.8756C9.69278 11.8756 11.8755 9.69284 11.8755 7.00032C11.8755 4.3078 9.69278 2.12508 7.00026 2.12508ZM0.791687 7.00032C0.791687 3.57142 3.57136 0.791748 7.00026 0.791748C10.4292 0.791748 13.2088 3.57142 13.2088 7.00032C13.2088 10.4292 10.4292 13.2089 7.00026 13.2089C3.57136 13.2089 0.791687 10.4292 0.791687 7.00032ZM7.00007 6.3334C7.36826 6.3334 7.66674 6.63188 7.66674 7.00007V9.21683C7.66674 9.58502 7.36826 9.8835 7.00007 9.8835C6.63188 9.8835 6.33341 9.58502 6.33341 9.21683V7.00007C6.33341 6.63188 6.63188 6.3334 7.00007 6.3334ZM7.00007 4.11665C6.63188 4.11665 6.33341 4.41513 6.33341 4.78332C6.33341 5.1515 6.63188 5.44998 7.00007 5.44998H7.0059C7.37409 5.44998 7.67257 5.1515 7.67257 4.78332C7.67257 4.41513 7.37409 4.11665 7.0059 4.11665H7.00007Z" />
+                    </svg>
+                    <span class="tooltip-data-text">
+                      Укажите дату и время доставки
+                    </span>
+                  </span>
+                </label>
+                <input type="text" id="delivery-date" name="delivery-date" placeholder="01.04.2020" class="field">
+              </p>
+              <p class="delivery-form-phone">
+                <label for="delivery-phone">
+                  <span class="delivery-text">Телефон</span>
+                </label>
+                <input type="text" id="delivery-phone" name="delivery-phone" placeholder="+7 800 999-00-00"
+                  class="field">
+              </p>
+              <p class="delivery-form-address">
+                <label for="delivery-address">
+                  <span class="delivery-text">Адрес
+                    <svg class="tooltip-adress-icon" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                      xmlns="http://www.w3.org/2000/svg">
+                      <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.00026 2.12508C4.30774 2.12508 2.12502 4.3078 2.12502 7.00032C2.12502 9.69284 4.30774 11.8756 7.00026 11.8756C9.69278 11.8756 11.8755 9.69284 11.8755 7.00032C11.8755 4.3078 9.69278 2.12508 7.00026 2.12508ZM0.791687 7.00032C0.791687 3.57142 3.57136 0.791748 7.00026 0.791748C10.4292 0.791748 13.2088 3.57142 13.2088 7.00032C13.2088 10.4292 10.4292 13.2089 7.00026 13.2089C3.57136 13.2089 0.791687 10.4292 0.791687 7.00032ZM7.00007 6.3334C7.36826 6.3334 7.66674 6.63188 7.66674 7.00007V9.21683C7.66674 9.58502 7.36826 9.8835 7.00007 9.8835C6.63188 9.8835 6.33341 9.58502 6.33341 9.21683V7.00007C6.33341 6.63188 6.63188 6.3334 7.00007 6.3334ZM7.00007 4.11665C6.63188 4.11665 6.33341 4.41513 6.33341 4.78332C6.33341 5.1515 6.63188 5.44998 7.00007 5.44998H7.0059C7.37409 5.44998 7.67257 5.1515 7.67257 4.78332C7.67257 4.41513 7.37409 4.11665 7.0059 4.11665H7.00007Z" />
+                    </svg>
+                    <span class="tooltip-address-text">
+                      Введите название улицы, дома и квартиры
+                    </span>
+                  </span>
+                </label>
+                <input type="text" id="delivery-address" name="delivery-address"
+                  placeholder="ул. Большая Конюшенная, 19/8" class="field">
+              </p>
+            </div>
             <button class="button special-button" type="submit">Отправить</button>
           </form>
         </div>
