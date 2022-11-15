@@ -2067,15 +2067,6 @@ fieldset {
   background-image: url("../img/icons/catalog-check-hover.svg");
 }
 
-/*
-.control-input[type="checkbox"]:checked + .control-mark::before,
-.control-input[type="checkbox"]:checked + .control-mark::after {
-  position: absolute;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  content: url(../img/icons/catalog-check.svg);
-}
 
  .modal-container {
   width: 100%;
@@ -2088,10 +2079,6 @@ fieldset {
   left: 0;
   top: 0;
   display: none;
-}
-
-.modal-container.open {
-  display: initial;
 }
 
 .modal-block {
