@@ -8,12 +8,13 @@
   <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/outline.css">
   <link rel="stylesheet" href="styles/outline-settings.css">
-  <link rel="icon" type="image/png" href="img/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="favicon.ico" sizes="32x32">
   <title>Интернет-магазин мороженого «Глейси»</title>
 </head>
 
 <body>
   <div class="page-wrapper pink-theme">
+    <!-- Обертка для переключения темы -->
     <header class="page-header">
       <div class="header-container">
         <nav class="main-nav-wrapper">
@@ -61,7 +62,9 @@
             <li class="navigation-item">
               <a href="tel:+78005558628" class="navigation-phone-link">+7 800 555-86-28</a>
             </li>
+
             <li class="navigation-item navigation-search-item">
+              <!-- Поиск по наведению на элемент -->
               <a href="#" class="navigation-user-link navigation-search-link ">
                 <svg class="navigation-icon" aria-hidden="true" focusable="false" width="16" height="17"
                   viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -72,21 +75,25 @@
                   Поиск
                 </span>
               </a>
+
               <div class="popover-search-wrapper">
                 <form action="https://echo.htmlacademy.ru" class="popover-search" method="post">
                   <label class="visually-hidden" for="search">Что вы хотите найти</label>
                   <input class="field" type="text" id="search" placeholder="Поиск по сайту">
                 </form>
               </div>
+
             </li>
             <li class="navigation-item navigation-login-item">
+              <!-- Форма личного кабинета по наведению на элемент -->
               <a href="#" class="navigation-user-link navigation-link-login">
                 <svg class="navigation-icon" width="16" height="17" viewBox="0 0 16 17" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M9 2.52458C9 2.15639 9.29848 1.85791 9.66667 1.85791H12.3333C12.8638 1.85791 13.3725 2.06862 13.7475 2.4437C14.1226 2.81877 14.3333 3.32748 14.3333 3.85791V13.1912C14.3333 13.7217 14.1226 14.2304 13.7475 14.6055C13.3725 14.9805 12.8638 15.1912 12.3333 15.1912H9.66667C9.29848 15.1912 9 14.8928 9 14.5246C9 14.1564 9.29848 13.8579 9.66667 13.8579H12.3333C12.5101 13.8579 12.6797 13.7877 12.8047 13.6626C12.9298 13.5376 13 13.3681 13 13.1912V3.85791C13 3.6811 12.9298 3.51153 12.8047 3.38651C12.6797 3.26148 12.5101 3.19124 12.3333 3.19124H9.66667C9.29848 3.19124 9 2.89277 9 2.52458ZM5.86189 4.71984C6.12224 4.45949 6.54435 4.45949 6.8047 4.71984L10.1338 8.04894C10.1509 8.06576 10.1671 8.0835 10.1824 8.10207C10.2142 8.14087 10.2411 8.18243 10.2628 8.22586C10.3079 8.31572 10.3333 8.41718 10.3333 8.52458C10.3333 8.6332 10.3074 8.73576 10.2613 8.82637C10.241 8.86632 10.2164 8.90466 10.1876 8.94069C10.1708 8.96169 10.1527 8.98166 10.1335 9.00047L6.8047 12.3293C6.54435 12.5897 6.12224 12.5897 5.86189 12.3293C5.60154 12.069 5.60154 11.6469 5.86189 11.3865L8.05715 9.19124H1.66667C1.29848 9.19124 1 8.89277 1 8.52458C1 8.15639 1.29848 7.85791 1.66667 7.85791H8.05715L5.86189 5.66265C5.60154 5.4023 5.60154 4.98019 5.86189 4.71984Z" />
                 </svg>
-                Вход</a>
+                Вход
+              </a>
 
               <div class="popover-login-wrapper">
                 <div class="popover-login-content">
@@ -108,6 +115,7 @@
               </div>
             </li>
             <li class="navigation-item navigation-basket-item empty-basket">
+              <!-- Корзина по наведению -->
               <a href="#" class="navigation-user-link navigation-link-login navigation-basket-link">
                 <svg class="navigation-icon" width="15" height="14" viewBox="0 0 15 14" fill="none"
                   xmlns="http://www.w3.org/2000/svg">
@@ -150,6 +158,7 @@
                 </div>
               </div>
               <div class="popover-empty-basket">
+                <!-- Альтернативная разметка для пустой корзины -->
                 <p class="popover-basket-text">
                   Ваша корзина пока пуста
                 </p>
@@ -158,34 +167,34 @@
           </ul>
         </nav>
       </div>
-
     </header>
+
     <main class="main-index main-container">
       <div class="page-container">
         <h1 class="visually-hidden">Интернет-магазин мороженого «Глейси»</h1>
 
-
         <section class="slider">
           <h2 class="visually-hidden">Новинки магазина «Глейси»</h2>
-
           <ul class="slider-block">
             <li class="slider-item active-slide">
-
+              <!-- Активный элемент слайдера .active-slide -->
               <div class="slider-text-wrapper">
                 <h3 class="slider-item-title">Нежный пломбир <br> с клубничным джемом</h3>
-
                 <p>Натуральное мороженое из свежих сливок <br> и молока с вкуснейшим клубничным джемом – это идеальный
                   десерт
                   для
-                  всей семьи. </p>
+                  всей семьи.
+                </p>
                 <a href="#" class="button order-button">Заказать</a>
               </div>
               <div class="slider-wrapper">
                 <div class="slider-images-wrapper">
+
                   <div class="slider-main-wrapper">
                     <img class="slider-image" src="img/slider/strawberry-jam.png"
                       alt="Нежный пломбир с клубничным джемом" width="306" height="507">
                   </div>
+
                   <div class="slider-image-preview">
                     <img src="img/slider/banana-jam-preview.png" width="66" height="150"
                       alt="Пломбир с банановым вкусом">
@@ -204,7 +213,8 @@
                 <h3 class="slider-item-title">Сливочное мороженое со вкусом банана</h3>
                 <p>Сливочное мороженое с ярким банановым вкусом подарит вам свежесть и наслаждение даже в самый жаркий
                   летний
-                  день.</p>
+                  день.
+                </p>
                 <a href="#" class="button order-button">Заказать</a>
               </div>
               <div class="slider-wrapper">
@@ -229,20 +239,21 @@
             </li>
 
             <li class="slider-item">
-
               <div class="slider-text-wrapper">
                 <h3 class="slider-item-title">Карамельный пломбир с маршмеллоу</h3>
-
                 <p>Необычный сладкий десерт с карамельным топпингом и кусочками зефира завоюет сердца сладкоежек всех
-                  возрастов.</p>
+                  возрастов.
+                </p>
                 <a href="#" class="button order-button">Заказать</a>
               </div>
               <div class="slider-wrapper">
                 <div class="slider-images-wrapper">
+
                   <div class="slider-main-wrapper">
                     <img src="img/slider/caramel-jam.png" alt="Карамельный пломбир с маршмеллоу" width="306"
                       height="507">
                   </div>
+
                   <div class="slider-image-preview">
                     <img src="img/slider/strawberry-jam-preview.png" width="66" height="150"
                       alt="Пломбир с карамельным вкусом">
@@ -256,6 +267,7 @@
               </div>
             </li>
             <li class="slider-control-items active-slide">
+              <!-- Разметка для кнопок переключения слайдов -->
               <div class="slider-controls">
                 <button class="slider-button slider-prev" type="button">
                   <svg class="slider-button-icon" aria-hidden="true" focusable="false" width="16" height="16"
@@ -279,6 +291,7 @@
 
 
           <div class="slider-navigation">
+            <!-- Пагинация -->
             <ul class="slider-pagination">
               <li class="slider-pagination-item">
                 <button class="slider-pagination-button slider-pagination-button-current">
@@ -354,7 +367,7 @@
                 <a href="#" class="button">Хочу подарок</a>
               </div>
               <div class="special-item-image">
-                <img src="img/marshmallow.png" alt="Маршмеллоу в подарок">
+                <img src="img/marshmallow.png" alt="Маршмеллоу в подарок" width="219" height="268">
               </div>
             </li>
           </ul>
@@ -428,7 +441,6 @@
               </div>
             </li>
           </ul>
-
         </section>
 
         <section class="advantages">
@@ -445,7 +457,8 @@
                     <div class="advantages-icon-wrapper">
                       <img class="advantages-icon" src="img/icons/adv-ice-cream.svg" alt="Иконка мороженого">
                     </div>
-                    <p>Всё наше мороженое изготавливается на собственном производстве с использованием современного
+                    <p>
+                      Всё наше мороженое изготавливается на собственном производстве с использованием современного
                       оборудования
                       и
                       проверенных временем технологий.
@@ -457,7 +470,8 @@
                     <div class="advantages-icon-wrapper">
                       <img class="advantages-icon" src="img/icons/adv-cow.svg" alt="Иконка коровы">
                     </div>
-                    <p>Закупка ингредиентов производится только <br>
+                    <p>
+                      Закупка ингредиентов производится только <br>
                       у проверенных фермерских хозяйств, с которыми <br>
                       нас связывает долговременное сотрудничество.
                     </p>
@@ -468,7 +482,8 @@
                     <div class="advantages-icon-wrapper">
                       <img class="advantages-icon" src="img/icons/adv-leaf.svg" alt="Иконка листика">
                     </div>
-                    <p>Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты
+                    <p>
+                      Для приготовления мороженого используются сливки и молоко высочайшего качества. Все ингредиенты
                       <br>
                       и добавки произведены из натурального сырья.
                     </p>
@@ -479,7 +494,8 @@
                     <div class="advantages-icon-wrapper">
                       <img class="advantages-icon" src="img/icons/adv-thermometer.svg" alt="Иконка градусника">
                     </div>
-                    <p>Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому
+                    <p>
+                      Доставка нашего мороженого осуществляется в специальном термопаке, который не даёт мороженому
                       растаять и
                       позволяет сохранить превосходный вкус.
                     </p>
@@ -494,17 +510,19 @@
           <h2 class="visually-hidden">Статьи в блоге и подписка на новости</h2>
           <article class="blog-news">
             <h3 class="blog-article-title">Новое в нашем блоге</h3>
-            <p class="blog-article-info"><a href="#">10 способов сервировки фруктовых щербетов <br>
-                к столу</a>
+            <p class="blog-article-info">
+              <a href="#">10 способов сервировки фруктовых щербетов <br> к столу</a>
             </p>
           </article>
 
           <div class="blog-form">
             <div class="blog-news-wrapper">
-              <p class="blog-info">Подпишитесь на нашу сладкую рассылку и будьте всегда <br>
+              <p class="blog-info">
+                Подпишитесь на нашу сладкую рассылку и будьте всегда <br>
                 в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной
                 ерунды.
-                Честно =)</p>
+                Честно =)
+              </p>
               <form class="blog-news-form" action="https://echo.htmlacademy.ru/" method="post">
                 <input class="field" placeholder="email@example.com" type="email" name="blog-email" id="blog-news-email"
                   required>
@@ -518,11 +536,14 @@
           <h2 class="visually-hidden">Доставка мороженого</h2>
           <div class="delivery-block">
             <h3 class="delivery-block-title">Доставка любимого мороженого на дом</h3>
-            <p class="delivery-block-info">Хочется полакомиться любимым десертом, <br>но нет времени съездить в магазин?
-              Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!</p>
+            <p class="delivery-block-info">
+              Хочется полакомиться любимым десертом, <br>но нет времени съездить в магазин?
+              Закажите доставку мороженого на дом, и курьер привезёт вам ваш заказ в течение часа!
+            </p>
           </div>
           <div class="form-wrapper">
-            <p class="delivery-text-info">Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.
+            <p class="delivery-text-info">
+              Укажите адрес и дату доставки, и мы свяжемся с вами, чтобы подтвердить заказ.
             </p>
 
             <form action="https://echo.htmlacademy.ru/" method="post" class="delivery-form">
@@ -594,7 +615,7 @@
       </div>
     </main>
     <footer class="page-footer">
-
+      <!-- Разметка подвала -->
       <div class="page-footer-wrapper">
         <ul class="social-list social-list-footer">
           <li class="social-items">
@@ -654,6 +675,7 @@
       </div>
     </footer>
     <div class="modal-container">
+      <!-- Разметка модального окна -->
       <div class="modal-block">
         <button class="modal-close-button">
           <span class="visually-hidden">Закрыть</span>
@@ -669,12 +691,11 @@
             <label for="modal-textarea" class="visually-hidden">Введите ваше сообщение</label>
           <textarea class="field modal-textarea" name="modal-textarea" id="modal-textarea" cols="30" rows="10" placeholder="В свободной форме"></textarea>
           <div class="button-modal-wrapper">
-          <a class="button special-button modal-button">Оформить заказ</a>
+          <button type="submit" class="button special-button modal-button">Оформить заказ</button>
           </div>
+          </form>
         </div>
     </div>
   </div>
-
 </body>
-
 </html>
