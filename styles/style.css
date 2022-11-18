@@ -30,6 +30,7 @@ html {
 body {
   margin: 0;
   padding: 0;
+  min-width: 1170px;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -38,7 +39,6 @@ body {
   line-height: 22px;
   color: #2D3440;
   background-color: #FEAFC3;
-  min-width: 1200px;
 }
 
 .pink-theme {
@@ -81,7 +81,6 @@ body {
 
 .page-wrapper {
   z-index: 2;
-  min-width: 1200px;
 }
 
 .section-title {
@@ -290,19 +289,19 @@ body {
   box-shadow: 0 4px 12px rgb(45 52 64 / 10%);
 }
 
-/* Разметка спиннера */
+/* Разметка для спиннера */
 
-.button.spinner {
+.button.alt-spinner {
   position: relative;
   padding-right: 56px;
 }
 
-.spinner:hover::after {
+.alt-spinner:hover::after {
   transform: rotate(360deg);
   transition: 0.4s ease-in-out;
 }
 
-.spinner::after {
+.alt-spinner::after {
   content: "";
   position: absolute;
   width: 17px;
@@ -317,6 +316,11 @@ body {
   background: #FF2F64;
   color: #FCFCFC;
   outline: 4px solid rgba(255, 47, 100, 0.3);
+}
+
+.spinner:hover::after {
+  transform: rotate(360deg);
+  transition: 0.4s ease-in-out;
 }
 
 .special-button.spinner {
@@ -335,6 +339,16 @@ body {
   background-repeat: no-repeat;
 }
 
+.special-button:hover.spinner::after {
+  content: "";
+  position: absolute;
+  width: 17px;
+  height: 16px;
+  margin-left: 8px;
+  margin-top: 2px;
+  background-image: url("../img/black-spinner.svg");
+  background-repeat: no-repeat;
+}
 
 .form-confirm-button {
   font-size: 14px;
@@ -477,9 +491,9 @@ body {
   background-color: rgba(255, 74, 120, 0.6);
 }
 
-.navigation-user-link:active {
-  outline: 2px solid transparent;
-  background-color: rgba(252, 252, 252, 1);
+.active-search-link:active {
+  background: #FF4A78;
+  opacity: 0.3;
 }
 
 .active-search-link:focus-visible {
@@ -553,16 +567,16 @@ body {
 
 /* Разметка для активной кнопки входа */
 
-.active-link-login {
+.active-navigation-link {
   background: #FF4A78;
   color: #FCFCFC;
 }
 
-.active-link-login > svg {
+.active-navigation-link > svg {
   fill: #FCFCFC;
 }
 
-.active-link-login:hover {
+.active-navigation-link:hover {
   background-color: rgba(255, 74, 120, 0.6);
 }
 
@@ -570,7 +584,7 @@ body {
   opacity: 0.3;
 }
 
-.active-link-login:focus-visible {
+.active-navigation-link:focus-visible {
   background-color: #FF4A78;
   border: 2px solid #000000;
   opacity: none;
@@ -1707,6 +1721,8 @@ body {
   width: 400px;
   margin-right: 156px;
   margin-left: 193px;
+  align-self: flex-start;
+  row-gap: 9px;
 }
 
 .footer-links-item {
@@ -1726,7 +1742,7 @@ body {
 
 .link-special::before {
   position: absolute;
-  left: 0;
+  left: 3px;
   top: 1px;
   content: url(../img/icons/heart.svg);
   width: 14px;
@@ -1752,6 +1768,7 @@ body {
 .creators-info {
   font-size: 12px;
   line-height: 16px;
+  margin-top: 16px;
 }
 
 .creators-info a {
